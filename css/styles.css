@@ -45,18 +45,23 @@ body {
 .source:before {
   content: "—";
 }
-.citation {
+.catalog {
   font-style: italic;
 }
-.citation:before {
+.catalog:before {
   content: ", ";
   font-style: normal;
 }
-.year:before {
-  content: ", ";
+.likes {
+  content: " ";
   font-style: normal;
+  text-align: right;
+  color:rgb(255, 255, 255);
 }
-
+.thumbUp {
+  background-color: hex(darkgoldenrod);
+  padding: 5px 10px;
+}
 #loadQuote {
   position: fixed;
   width: 12em;
